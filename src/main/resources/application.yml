@@ -1,0 +1,7 @@
+server:
+  port: 7780
+spring:
+  config:
+    import: optional:configserver:http://localhost:9091
+  application:
+    name: DC-API
